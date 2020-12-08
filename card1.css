@@ -1,0 +1,115 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    height: 100%;
+}
+
+body {
+    background-color: #232B34;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 {
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    height: 300px;
+    width: 100%;
+    background-color: #000000;
+    background-image: url('https://mygamehunter.ru/images/thumbnail/59271/550');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 15px 20px 0px #000000c4;
+    z-index: 3;
+}
+
+.photo .title {
+    position: absolute;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
+    border-radius: 0 0 5px 5px;
+}
+
+.photo h5 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.photo span {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.info {
+    background: white;
+    width: 80%;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 10px 20px 0px #000000c4;
+    z-index: 2;
+    padding: 10px 0;
+}
+
+.info ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.info ul li {
+    flex: 0 1 auto;
+    padding: 10px;
+}
+
+.info ul li strong {
+    display: block;
+}
+
+.bottom {
+    width: 60%;
+    z-index: 1;
+}
+
+.bottom a {
+    background: #DF2F73;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 10px 20px 0px #480D26;
+}
+
+.bottom a:hover {
+    background: #9e2453;
+}
